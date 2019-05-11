@@ -103,8 +103,8 @@ def all_holidays_with_bbq(holiday_hash)
   temp=[]
   holiday_hash.collect do |key, value|
       value.collect do |holiday, supply|
-        if supplies
-          temp<<holiday if supplies.include?("BBQ")
+        if supplies.include?("BBQ")
+          temp<<holiday
         end
       end
     end
