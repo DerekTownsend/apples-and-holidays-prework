@@ -25,7 +25,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
   # add the second argument, which is a supply, to BOTH the
   # Christmas AND the New Year's arrays
-  holiday_hash.values.each do |key,value|
+  holiday_hash.each do |key,value|
     if key==:winter
        value.each do |item1,item2|
          item2<<supply
@@ -55,7 +55,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-  holiday_hash.values.each do |key,value|
+  holiday_hash.each do |key,value|
     if key==:winter
        value.each do |item1,item2|
         #  item2<<supply
