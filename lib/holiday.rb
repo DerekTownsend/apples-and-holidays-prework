@@ -62,7 +62,7 @@ def all_winter_holiday_supplies(holiday_hash)
       #   puts "1 #{item2}"
       #  end
     # end
-    puts key
+    puts value
   end
 end
 
