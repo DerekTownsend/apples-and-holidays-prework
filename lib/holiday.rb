@@ -59,7 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |key,value|
     supplies<<value.join(",")
   end
-  supplies.split
+  supplies.split(",")
 end
 
 def all_supplies_in_holidays(holiday_hash)
