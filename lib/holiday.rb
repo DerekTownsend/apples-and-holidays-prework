@@ -60,8 +60,9 @@ def all_winter_holiday_supplies(holiday_hash)
       #  value.each do |item1,item2|
       #   #  item2<<supply
       #   puts "1 #{item2}"
-       end
-    end
+      #  end
+    # end
+    puts key
   end
 end
 
