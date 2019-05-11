@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |key,value|
     puts "#{key}"
     value.each do |item|
-      supplies<<item
+      puts "#{value}"
     end
   end
 end
