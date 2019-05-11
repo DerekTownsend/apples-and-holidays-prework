@@ -37,13 +37,13 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
-  holiday_hash.each do |key,value|
-    if key==:spring
-       value.each do |item1,item2|
-         item2<<supply
-       end
-    end
-  end
+  # holiday_hash.each do |key,value|
+  #   if key==:spring
+  #      value.each do |item1,item2|
+  #        item2<<supply
+  #      end
+  #   end
+  # end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
